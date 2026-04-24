@@ -9,7 +9,7 @@ np = neopixel.NeoPixel(machine.Pin(pin), n)
 
 # Blink loop
 while True:
-    np[0] = (255, 0, 0)  # Red
+    np[0] = (1, 1, 1)  # R,G,B
     np.write()
     time.sleep(0.5)
 
